@@ -1,0 +1,40 @@
+.friendList {
+    width: 250px;
+list-style: none;
+padding-left: 0;
+}
+
+.friendsItem {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+border: 1px solid black;
+height: 100px;
+
+}
+
+.friendsItem:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.avatar {
+    width: 65px;
+    margin-right: 20px;
+}
+
+.status, 
+.statusOff {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-right: 20px;
+
+}
+
+.statusOff {
+    background-color: red;
+}
+
+.status {
+    background-color: green;
+}
